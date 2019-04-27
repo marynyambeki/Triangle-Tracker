@@ -17,8 +17,8 @@ div.scrollmenu {
   }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -36,4 +36,42 @@ div.scrollmenu {
   .container {
     width: 1170px;
   }
+}
+/* Style the sidebar - fixed full height */
+.sidebar {
+height: 100%;
+width: 310px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(5, 5, 5);
+overflow-x: hidden;
+padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+padding: 20px 20px 20px 20px;
+text-decoration: none;
+font-size: 40px;
+color: #818181;
+display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+color: #f6cafa;
+}
+
+/* Style the main content */
+.main {
+margin-left: 160px; /* Same as the width of the sidenav */
+padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
 }
