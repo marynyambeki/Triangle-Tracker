@@ -17,8 +17,8 @@ div.scrollmenu {
   }
 
 .container {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 1px;
+  padding-left: 100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -75,3 +75,45 @@ padding: 0px 10px;
 .sidebar {padding-top: 15px;}
 .sidebar a {font-size: 18px;}
 }
+h1,h2 {
+    line-height: 50
+px;
+}
+h1 {
+    color: rgb(15, 14, 15);
+    text-align: center
+ }
+
+ h1 {
+     text-decoration: underline
+
+ }
+ h2 {
+     color: rgb(9, 10, 9);
+     font-style: italic;
+     text-align: left;
+    list-style: black;
+    text-decoration: underline
+ }
+  .column {
+    float:left;
+    width:480px;
+  }
+  .text-box {
+    border:1px solid black;
+  }
+ p {
+     font-style: italic
+ }
+ ul {
+     line-height: 40px
+ }
+ 
+ body {
+     background-image: url("https://www.google.com/search?q=image+of+triangles&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjntbK5iPDhAhVOKBoKHVsDBlEQ_AUIDigB&biw=1853&bih=981&dpr=2#imgrc=2np24uBkxUuItM");
+     background-color: #cccccc;
+ }
+ img {
+    width: 300px;
+  }
+   
