@@ -27,6 +27,14 @@
     width: 1500px;
   }
 
+  #calculate{
+    color: #FFD700;
+    text-decoration: underline;
+    /*background-color: white;*/
+    font-family: fantasy;
+    font-weight: bold;
+  }
+
 h1,h2 {
     line-height: 30px;
 }
