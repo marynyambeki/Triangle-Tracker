@@ -11,40 +11,20 @@
  </head>
   <body>
 
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
+        <!-- The sidebar -->
+        <div class="sidebar">
+                <a href="#home"><i class="fa fa-fw fa-home"></i> HOME</a>
+                <a href="#about"><i class="fa fa-fw fa-wrench"></i> ABOUT</a>
+                <a href="#contact"><i class="fa fa-fw fa-user"></i> CONTACT</a>
+                <a href="#help"><i class="fa fa-fw fa-envelope"></i> HELP</a>
+        
+                </div>
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="https://i.gifer.com/80ag.gif" style="width:20%">
-          <div class="text">EQUILATERAL TRIANGLE</div>
+        <div class="image">
+        <image orientation class="centre" width="4000px" height="100" Align="left">
+        <img src="https://i.gifer.com/Sdos.gif" class="centre">
+
         </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="https://i.gifer.com/Sdos.gif" style="width:20%">
-          <div class="text">SCALENE TRIANGLE</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="https://i.gifer.com/9viJ.gif" style="width:20%">
-          <div class="text">ISOSCELES TRIANGLE</div>
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
 
         <div class="container">
           <div class="jumbotron">
@@ -71,7 +51,9 @@
            <img src="img/Isosceles Triangle.jpg" alt="A photo of an Isosceles Triangle">
 
        </ul>
-       <h2> Dimensions</h2>
+       
+       <fieldset>
+          <h2> Dimensions</h2>
        
           <p>SIDE A
           <input type="number" name="Side A"  value=""></p>
@@ -85,6 +67,7 @@
           <input type="number" name="Side C"  value=""></p>
           <input class="button1" type="button" value="Calculate" onclick="Tracker()">
           <input class="button2" type="button" value="Refresh" onclick="reset()">
+          </fieldset>
        
 
        <!----> <div id="about">
@@ -103,12 +86,16 @@
           <P>E-mail:<a href="https://mail.google.com/mail/">marynyambekiadv@gmail.com</p>
 
        </div>
+    </fieldset>
 
        <footer>
-        <p>Copyrights & Copy Reserved 2019 <MaryNyambeki.inc</p>
+        <p>All Rights Reserved
+           Copyrights & Copy Reserved 2019 MaryNyambeki.inc</p>
        </footer>
 
   <script type="text/javascript" src="js/script.js"></script> 
   </body>
   
   </html>
+
+  This is an Application with a Triangle Tracker that is easy to use and navigate through so that the user will be allowed to enter three sides of a triangle and check whether the triangle is Equilateral,Isoscles,Scalene or not a triangle.However, It will not allow users to input non-numerical values.</p>

@@ -1,24 +1,14 @@
-div.scrollmenu {
-    background-color: #00CED1;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 50px;
-    text-decoration: none;
-  }
-  
-  div.scrollmenu a:hover {
-    background-color: #777;
+.center image {
+    display: centre;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 100%;
   }
 
+}
 .container {
-  padding-right: 1px;
-  padding-left: 100px;
+  padding-right: 600px;
+  padding-left: 50px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -34,50 +24,11 @@ div.scrollmenu {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1500px;
   }
-}
-/* Style the sidebar - fixed full height */
-.sidebar {
-height: 100%;
-width: 310px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: rgb(5, 5, 5);
-overflow-x: hidden;
-padding-top: 16px;
-}
 
-/* Style sidebar links */
-.sidebar a {
-padding: 20px 20px 20px 20px;
-text-decoration: none;
-font-size: 40px;
-color: #818181;
-display: block;
-}
-
-/* Style links on mouse-over */
-.sidebar a:hover {
-color: #f6cafa;
-}
-
-/* Style the main content */
-.main {
-margin-left: 160px; /* Same as the width of the sidenav */
-padding: 0px 10px;
-}
-
-/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
-.sidebar {padding-top: 15px;}
-.sidebar a {font-size: 18px;}
-}
 h1,h2 {
-    line-height: 50
-px;
+    line-height: 30px;
 }
 h1 {
     color: rgb(15, 14, 15);
@@ -112,8 +63,7 @@ h1 {
  body {
      background-image: url("https://www.google.com/search?q=image+of+triangles&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjntbK5iPDhAhVOKBoKHVsDBlEQ_AUIDigB&biw=1853&bih=981&dpr=2#imgrc=2np24uBkxUuItM");
      background-color: #cccccc;
+
  }
- img {
-    width: 300px;
-  }
-   
+image-orientation.container 
+      border-image-width: 1500px
