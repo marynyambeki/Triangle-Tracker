@@ -2,31 +2,28 @@
 
 function Triangle(){
 
-var SideA=parseInt(document.getElementbyId("SideA").value);
-var SideB=parseInt(document.getElementbyId("SideB").value);
-var SideC=parseInt(document.getElementbyId("Sidec").value);
-var answer=document.getElementbyId ('answer');
+var SideA=text(document.getElementbyId("SideA").value);
+var SideB=text(document.getElementbyId("SideB").value);
+var SideC=text(document.getElementbyId("Sidec").value);
+var text=document.getElementbyId ('result');
 
-if(SideA==SideB && SideB==SideC)
-            answer.textcontent("Equilateral");
-
-        else if(SideA >= (SideB+SideC) || SideC >= (SideB+SideA) || SideB >= (SideA+SideC) )
-            answer.textcontent("Not a triangle");
-
-        else if ((SideA==SideB && SideB!=SideC ) || (SideA!=SideB && SideC==SideA) || (SideC==SideB && SideC!=SideA))
-            answer.textcontent("Isosceles");
-
-        else if(SideA!=SidebB && SideB!=SideC && SideC!=SideA)
-            answer.textcontent("Scalene");
-
-}
-}
-
-function Tracker(){
-var SideA=parseInt(document.getElementbyId("SideA").value);
-var SideB=parseInt(document.getElementbyId("SideB").value);
-var SideC=parseInt(document.getElementbyId("Sidec").value);
-var answer=document.getElementbyId ('answer');
-
-}
+var sides = ["sideA", "sideB", "sideC", "text"]
+            if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA){
+             text = document.getElementById('result').innerHTML = "This is not a triangle!";
+            }
+               else if (sideA === sideB && sideA === sideC && sideB === sideC){
+                 text = document.getElementById('result').innerHTML = "This is an equilateral triangle";
+               }
+               else if (sideA === sideB || sideA === sideC || sideB === sideC){
+                 text = document.getElementById('result').innerHTML = "This is an isosceles triangle";
+               }
+               else if (sideA**2 + sideB**2 === sideC**2){
+                 text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+               }
+               else if (sideA**2 + sideC**2 === sideB**2){
+                 text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+               }
+               else {
+                 text = document.getElementById('result').innerHTML = "This is a scalene triangle.";
+               }
 
