@@ -23,6 +23,10 @@ Should the user enter values that cannot even make triangle, the the result will
 Author
 Mary Nyambeki
 
+Contacts:
+Need Any Help?
+CALL me on 070000012
+
 Setup requirements:
 Web browser
 Internet connection
