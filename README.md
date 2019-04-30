@@ -1,15 +1,15 @@
-Triangle Tracker
+# Triangle Tracker
 
-Description:
+## Description:
 This is an Application with a Triangle Tracker that is easy to use and navigate through so that the user will be allowed to enter three sides of a triangle and check whether the triangle is Equilateral,Isoscles,Scalene or not a triangle.However, It will not allow users to input non-numerical values.
 
 
-Languages used:
+### Languages used:
 HTML
 Javascript
 CSS
 
-BDD:
+### BDD:
 This application is therefore expected to work like this below:
 
 1. should be able to display a space bar for the input of numbers by the user.
@@ -20,18 +20,18 @@ This application is therefore expected to work like this below:
 
 Should the user enter values that cannot even make triangle, the the result will be "Not a triangle"
 
-Author
+### Author
 Mary Nyambeki
 
-Contacts:
+### Contacts:
 Need Any Help?
 CALL me on 070000012
 
-Setup requirements:
+### Setup requirements:
 Web browser
 Internet connection
 Link to the app:
  https://marynyambeki.github.io/Triangle-Tracker/
 
-License:
+### License:
 Copyright © 2019; MaryNyambeki.Inc.
